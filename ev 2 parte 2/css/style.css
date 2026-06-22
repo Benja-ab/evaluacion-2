@@ -1,0 +1,50 @@
+/* FONDO POR DEFECTO */
+body {
+  background-image: url("img/novela.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: all 0.5s;
+}
+
+/* MODO ANIME */
+.anime-mode {
+  background-image: url("img/anime.jpg");
+  color: #fff;
+}
+
+/* MODO MANGA */
+.manga-mode {
+  background-image: url("img/manga.jpg");
+  color: black;
+}
+
+/* MODO MANWHA */
+.manwha-mode {
+  background-image: url("img/manwha.jpg");
+  color: #222;
+}
+
+/* TARJETAS */
+.card-dinamica {
+  transition: all 0.5s;
+}
+
+/* ESTILO ANIME */
+.anime-card {
+  border: 3px solid violet;
+  background: rgba(0,0,0,0.7);
+  color: white;
+}
+
+/* ESTILO MANGA */
+.manga-card {
+  border: 3px solid black;
+  background: white;
+}
+
+/* ESTILO MANWHA */
+.manwha-card {
+  border: 3px solid cyan;
+  background: #111;
+  color: white;
+}
