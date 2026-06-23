@@ -33,7 +33,7 @@ function validarFechas() {
     if (inicio > fin) {
         alert("Fecha incorrecta");
     } else {
-        alert("Fechas correctas");
+        alert("Fechas correctas"+" inicio "+inicio+" fin " + fin);
     }
 }
 
@@ -42,7 +42,7 @@ function validarFechas() {
 function cambiarModo() {
 
     let body = document.getElementById("body");
-    let form = document.querySelector(".formulario");
+    let form = document.getElementById("forma")
     let titulo = document.getElementById("titulo");
     let labelContenido = document.getElementById("labelContenido");
     let labelCheck1 = document.getElementById("labelCheck1");
